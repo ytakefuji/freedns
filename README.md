@@ -1,5 +1,6 @@
 # freedns
 This shows how to setup dynamic DNS using freedns service.
+
 Whenever your IP changed, you can access to the same machine using dynamic DNS. 
 
 You can create your account on https://freedns.afraid.org/
@@ -14,7 +15,7 @@ Use crontab -e to activate crontab
 
 The following setting in crontab, every minute to maintain the dynamic DNS.
 
- * * * * * python xxx/freedns.py >/dev/null
+" * * * * * python xxx/freedns.py >/dev/null"
 
 xxx is "path to the freedns.py"
 
