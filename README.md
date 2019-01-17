@@ -13,9 +13,9 @@ You should modify USERNAME, PASSWORD, and UPDATE_DOMAIN in freedns.py respective
 
 Use crontab -e to activate crontab 
 
-The following setting in crontab, every minute to maintain the dynamic DNS.
+The following setting in crontab indicates every minute to maintain the dynamic DNS.
 
 " * * * * * python xxx/freedns.py >/dev/null"
 
-xxx is "path to the freedns.py"
+xxx is "path to the program of freedns.py"
 
