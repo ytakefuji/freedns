@@ -10,8 +10,11 @@ You can pick your favorite domain name from https://freedns.afraid.org/.
 
 You should modify USERNAME, PASSWORD, and UPDATE_DOMAIN in freedns.py respectively.
 
-Use crontab -e to activate crontab every minute to maintain the dynamic DNS.
+Use crontab -e to activate crontab 
 
-In crontab, * * * * * python xxx/freedns.py >/dev/null
+The following setting in crontab, every minute to maintain the dynamic DNS.
 
-xxx is <path to the freedns.py>
+ * * * * * python xxx/freedns.py >/dev/null
+
+xxx is "path to the freedns.py"
+
