@@ -21,7 +21,7 @@ xxx is "path to the program of freedns.py"
 
 ----------------------------------------
 The following dynamic DNS providers have the same scheme:
-No-IP (3 free names) (expires in 30 days.
+No-IP (3 free names) (expires in 30 days)
 DuckDNS
 DynDNS
 
