@@ -19,3 +19,15 @@ The following setting in crontab indicates every minute to maintain the dynamic 
 
 xxx is "path to the program of freedns.py"
 
+You can create your account:
+https://www.noip.com/
+
+You can login.
+
+Create your hostname.
+
+In order to manage dynamic DNS, run the following command.
+
+$ pip install noipy
+
+$ noipy -u username -p password -n xxx.ddns.net --provider noip
