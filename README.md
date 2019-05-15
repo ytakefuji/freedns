@@ -26,7 +26,7 @@ $ crontab -e
 
 The following setting in crontab indicates every minute to maintain the dynamic DNS.
 
-" * * * * * python xxx/freedns.py >/dev/null"
+" * * * * * python2.7 xxx/freedns.py >/dev/null"
 
 xxx is "path to the program of freedns.py"
 
