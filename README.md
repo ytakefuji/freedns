@@ -15,8 +15,14 @@ freedns.py is a program to manage dynamic DNS for freedns service.
 You can pick your favorite domain name from https://freedns.afraid.org/.
 
 You should modify USERNAME, PASSWORD, and UPDATE_DOMAIN in freedns.py respectively.
-
-Use crontab -e to activate crontab 
+<pre>
+Run the following command to execute freedns.py:
+$ python2.7 freedns.py
+</pre>
+In order to run periodically freedns.py, use crontab command:
+<pre>
+$ crontab -e 
+</pre>
 
 The following setting in crontab indicates every minute to maintain the dynamic DNS.
 
